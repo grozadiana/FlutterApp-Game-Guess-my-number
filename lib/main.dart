@@ -153,8 +153,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     },
                     child: Text(guessedRight ? 'Reset' : 'Guess'),
                   ),
-                  if (guessedRight)
-                    SizedBox(height: 16.0),
                 ],
               ),
             ),
